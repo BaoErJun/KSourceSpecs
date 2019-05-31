@@ -95,15 +95,15 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
 
     spec.subspec 'BaseFile' do |bb|
-    bb.source_files = "Classes", "Classes/BaseFile/**/*.{h,m}"
+    bb.source_files = "Classes", "Classes/BaseFile/**/*"
     end
 
     spec.subspec 'Category' do |cc|
-    cc.source_files = "Classes", "Classes/Category/**/*.{h,m}"
+    cc.source_files = "Classes", "Classes/Category/**/*"
     end
 
     spec.subspec 'Tool' do |tt|
-    tt.source_files = "Classes", "Classes/Tool/**/*.{h,m}"
+    tt.source_files = "Classes", "Classes/Tool/**/*"
     end
 
   # spec.public_header_files = "Classes/**/*.h"
